@@ -50,7 +50,7 @@ const handleSubmit = (e) => {
         caliRevenue += quantity * price;
     }
 
-    if (destiny.toLowerCase() === 'bogota') {
+    if (destiny.toLowerCase() === 'bogota' || destiny.toLowerCase() === 'bogotá') {
         bogotaRoutes++;
         bogotaPassengers += quantity;
         bogotaRevenue += quantity * price;
